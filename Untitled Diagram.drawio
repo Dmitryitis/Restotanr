@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-08T06:48:57.960Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 OPR/71.0.3770.198" etag="HP5D0s1raParBLhQH7lK" version="13.7.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-08T07:04:32.600Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 OPR/71.0.3770.198" etag="X8ZJd8zaDdOKfhmBVeeG" version="13.7.8" type="github">
   <diagram id="R7FvvUTfoDNUBcz5hPDE" name="Page-1">
     <mxGraphModel dx="828" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,10 +14,10 @@
           <mxGeometry x="380" y="320" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VfqOtJUr49CEODAoZH7p-25" value="Tables" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="100" y="300" width="100" height="40" as="geometry" />
+          <mxGeometry x="90" y="290" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VfqOtJUr49CEODAoZH7p-27" value="Booking" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="430" y="200" width="100" height="40" as="geometry" />
+          <mxGeometry x="280" y="240" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VfqOtJUr49CEODAoZH7p-29" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VfqOtJUr49CEODAoZH7p-24" target="VfqOtJUr49CEODAoZH7p-27">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -34,23 +34,11 @@
         <mxCell id="VfqOtJUr49CEODAoZH7p-34" value="order" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="380" y="490" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VfqOtJUr49CEODAoZH7p-35" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.43;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VfqOtJUr49CEODAoZH7p-34" target="VfqOtJUr49CEODAoZH7p-24">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="290" y="480" as="sourcePoint" />
-            <mxPoint x="390" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="VfqOtJUr49CEODAoZH7p-36" value="check" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="600" y="490" width="100" height="40" as="geometry" />
+          <mxGeometry x="540" y="500" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VfqOtJUr49CEODAoZH7p-39" value="waiter" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="90" y="190" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="VfqOtJUr49CEODAoZH7p-40" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VfqOtJUr49CEODAoZH7p-39" target="VfqOtJUr49CEODAoZH7p-25">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="170" y="260" as="sourcePoint" />
-            <mxPoint x="270" y="160" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="510" y="180" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VfqOtJUr49CEODAoZH7p-41" value="menu" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="90" y="410" width="100" height="40" as="geometry" />
@@ -75,6 +63,30 @@
             <mxPoint x="480" y="620" as="sourcePoint" />
             <mxPoint x="580" y="520" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VfqOtJUr49CEODAoZH7p-47" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VfqOtJUr49CEODAoZH7p-39" target="VfqOtJUr49CEODAoZH7p-36">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="220" y="230" as="sourcePoint" />
+            <mxPoint x="320" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VfqOtJUr49CEODAoZH7p-48" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;curved=1;entryX=0.34;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VfqOtJUr49CEODAoZH7p-39" target="VfqOtJUr49CEODAoZH7p-25">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="400" y="140" as="sourcePoint" />
+            <mxPoint x="100" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VfqOtJUr49CEODAoZH7p-51" value="информация остается у официанта" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="590" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VfqOtJUr49CEODAoZH7p-52" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VfqOtJUr49CEODAoZH7p-24" target="VfqOtJUr49CEODAoZH7p-34">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="400" y="460" as="sourcePoint" />
+            <mxPoint x="500" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VfqOtJUr49CEODAoZH7p-53" value="Герасимов Дмитрий" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="480" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
